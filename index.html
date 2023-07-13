@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="./assest/css/style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="section1">
+        <img src="./assest/img/descargar.jpeg" alt="" />
+        <h3>Nintendo Switch</h3>
+        <input type="number" id="input" min="1" />
+        <select name="" id="selector">
+          <option value="red">Rojo</option>
+          <option value="blue">Azul</option>
+          <option value="yellow">Amarillo</option>
+          <option value="green">Verde</option>
+        </select>
+        <h1>Precio: 40000</h1>
+        <button id="button" onclick="obtenerValor()">Calcular Total</button>
+      </section>
+      <section class="section2">
+        <p id="total">total:$0</p>
+        <p id="cantidad">Cantidad:0</p>
+        <div class="container">
+          <p>Color:</p>
+          <div class="subcontainer" id="colorContainer"></div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script src="./js/index.js"></script>
+</html>
